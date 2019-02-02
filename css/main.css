@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Krub');
+
+body {
+    font-family: 'Krub', sans-serif;
+    font-size: 16px;
+}
+
+.brand-logo {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.main-header {
+    background: url("../img/background.jpg") no-repeat center center/cover;
+    min-height: 600px;
+    color: #fff;
+}
+
+.main-header .showcase {
+    padding-top: 100px;
+}
+
+.active-link {
+    color: #d847f1;
+    font-weight: bold;
+}
