@@ -21,6 +21,12 @@ body {
     overflow: hidden;
 }
 
+.main-header {
+    background: url("../img/background.jpg") no-repeat center center/cover;
+    min-height:600px;
+    color: #fff;
+}
+
 .main-header-inner {
     background: url("../img/background.jpg") no-repeat center center/cover;
     min-height: 350px;
@@ -70,6 +76,11 @@ body {
 
 .tabs .indicator {
     background: #6a1b9a;
+}
+
+.btn-extend {
+    display: block;
+    width: 100%;
 }
 
 @media(max-width: 500px) {
